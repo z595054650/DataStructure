@@ -12,6 +12,7 @@ public class HelloAnnotation {
 
     public static void main(String[] args) {
         printAlias(UserBean.class);
+        System.out.println("test ..........");
         invokeAnnotationMehods(new UserBean("zxf",27));
     }
 
